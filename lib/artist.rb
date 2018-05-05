@@ -13,6 +13,8 @@ class Artist
     song.artist = self
   end
 
+  def genres
+  end
 
 
 end

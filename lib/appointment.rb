@@ -8,5 +8,4 @@ class appointment
   end
 
 
-
 end

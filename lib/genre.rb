@@ -10,6 +10,10 @@ class Genre
     @songs
   end
 
+  def artists
+    self.songs.collect {|songs| @name = songs.name}
+  end
+
   def add_song(song)
     @songs << song
   end

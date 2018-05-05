@@ -6,4 +6,8 @@ class appointment
     @doctor = doctor
   end
 
+  def patient
+    @patient = patient
+  end
+
 end

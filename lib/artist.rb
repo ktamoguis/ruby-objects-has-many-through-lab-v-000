@@ -14,6 +14,7 @@ class Artist
   end
 
   def genres
+  #parses through songs 
   end
 
 

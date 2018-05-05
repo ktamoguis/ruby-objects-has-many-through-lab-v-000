@@ -11,11 +11,13 @@ class Genre
   end
 
   def artists
+    newarray = []
     self.songs.each do |songtitle|
       if songtitle.genre == self.name
         newarray << songtitle.artist
       end
     end
+    newarray
   end
 
   def add_song(song)

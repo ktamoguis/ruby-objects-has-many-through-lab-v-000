@@ -1,3 +1,5 @@
+#learn spec/01_artist_spec.rb
+
 class Artist
   attr_accessor :name, :songs
 
@@ -11,6 +13,6 @@ class Artist
     song.artist = self
   end
 
-    
+
 
 end
